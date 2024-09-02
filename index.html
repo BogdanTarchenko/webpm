@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="main.js" defer></script>
+</head>
+<body>
+<div class="header">
+    <h2 id = "todoHeader">Список дел</h2>
+    <input type="text" id="todoInput" placeholder="Название дела...">
+    <span onclick="elementProcessing()" id="addButton" class="addButton">Добавить</span>
+    <span onclick="exportTodoList()" id ="exportButton">Сохранить список</span>
+    <span onclick="importTodoList()" id ="importButton">Загрузить список</span>
+</div>
+
+<ul id="todoList">
+
+</ul>
+</body>
+</html>
